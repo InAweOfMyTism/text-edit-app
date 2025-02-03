@@ -1,0 +1,48 @@
+:root{
+  --bg-clr: gray;
+  --txt-clr: black;
+  --editor-bg-clr: lightgray;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: var(--bg-clr);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor{
+  width: 100%;
+  max-width: 45rem;
+  min-height: 75vh;
+
+  border-radius: 1rem;
+  background-color: var(--editor-bg-clr);
+
+  padding: 0 1rem;
+}
+
+.editor *{
+  border: 2px solid blue;
+  margin: 1rem 0;
+}
+
+.toolbar{
+  min-height: 5rem;
+}
+.title{
+  min-height: 3rem;
+}
+.input{
+  min-height: 10rem;
+}
